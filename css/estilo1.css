@@ -1,0 +1,84 @@
+*{
+	font-family: calibri;
+	margin: 10px;
+	padding: 10px;
+}
+img
+{
+	height:25%;
+	width:25%;
+}
+table
+{ 
+	border-color:green;
+}
+h1
+{
+	color:red;
+	text-align:center;
+}
+header
+{
+	height:20%;
+	background-color:#F5B041;
+}
+#cont1
+{
+	background-color:yellow;
+}
+#cont2
+{
+	background-color:pink;
+}
+
+@media screen and (max-width:500px)
+{
+	#cont1
+	{
+		background-color:green;
+	}
+	#cont2
+	{
+		background-color:#D7BDE2;
+	}
+	section
+	{
+		background-color:orange;
+	}
+	img
+	{
+		width:100%;
+		height:100%;
+	}
+}
+@media screen and (min-width:500px)
+{
+	#cont1
+	{
+		background-color:#FDEBD0;
+	}
+	#cont2
+	{
+		background-color:pink;
+	}
+	h1
+	{
+		color:blue;
+		text-decoration:underline;
+	}
+
+}
+@media(orientation:landscape)
+{
+	body
+	{
+		background-color:#7FB3D5;
+	}
+}
+@media(orientation:portrait)
+{
+	body
+	{
+		background-color:#D7BDE2;
+	}
+}
